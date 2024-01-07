@@ -1,0 +1,55 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    min-height: 250px;
+    min-width: 400px;
+    border: 0px solid;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.heading {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.login-details {
+    font-weight: 100;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-button {
+    background-color: blueviolet;
+    width: 22%;
+    border-radius: 8px;
+}
